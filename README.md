@@ -1,18 +1,18 @@
 # 星宿配置器
 
-妄想山海安卓星宿配置工具，当前版本 **1.3.0**。
+妄想山海安卓星宿配置工具，当前版本 **1.3.1**。
 
 输入星宿点，选择武器天赋、四元素目标与优先规则，生成满足前置条件的加点方案。支持多套方案、武器与方位定位、属性行号指导和手动悬浮进度。
 
 - 暴击优先：暴击 → 攻击。
 - 攻击穿透优先：攻击 → 穿透 → 暴击。
-- 虚战优先：按资源属性计分求最高参考战力，包含元素。
+- 虚战优先：自动搭配满级Lv6天赋，最大化节点与携带天赋总参考战力，包含元素。
 
 ## 下载
 
-[线路一](https://fastly.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.0/releases/star-planner-1.3.0.apk) · [线路二](https://gcore.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.0/releases/star-planner-1.3.0.apk) · [线路三](https://cdn.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.0/releases/star-planner-1.3.0.apk) · [GitHub Releases](https://github.com/LeeYan421/shanhai-star-planner/releases/latest)
+[线路一](https://fastly.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.1/releases/star-planner-1.3.1.apk) · [线路二](https://gcore.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.1/releases/star-planner-1.3.1.apk) · [线路三](https://cdn.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.1/releases/star-planner-1.3.1.apk) · [GitHub Releases](https://github.com/LeeYan421/shanhai-star-planner/releases/latest)
 
-Android 8.0及以上。下载后覆盖安装以保留方案和勾选进度。显示版本重新编号为1.3.0，内部安装编码为9，可覆盖此前本地1.6.0版本。
+Android 8.0及以上。下载后覆盖安装以保留方案和勾选进度。可覆盖此前版本，保留本机方案。
 
 ## 检查更新
 
@@ -22,9 +22,10 @@ App内打开「使用说明 → 检查更新」。只在点击后联网，多个
 
 ## 本版变化
 
-新增检查更新：打开「使用说明 → 检查更新」，自动尝试多条更新线路，并提供下载与线路切换。
-版本号调整为1.3.0，支持覆盖此前1.6.0，保留本机方案与加点勾选。
-保留多套自定义方案、暴击优先、虚战优先、攻击穿透优先、四元素目标与悬浮加点指导。
+虚战优先改为自动搭配满级（Lv6）天赋，联合计算节点战力与携带天赋固定战力的最高总分，手选天赋不作为限制。
+自动遵守天赋容量、携带数量、互斥、整组解锁与元素目标，结果区分节点、天赋与总战力参考。
+导出和悬浮完整清单同步显示推荐天赋的品质、费用、满级效果及战力参考。
+暴击和攻击穿透模式继续使用原手选天赋。计算组件内置，星宿求解无需联网。
 
 ## 使用提示
 
