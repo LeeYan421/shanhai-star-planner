@@ -1,6 +1,6 @@
 # 梧桐山海
 
-妄想山海安卓离线工具箱，当前版本 **1.3.4**，包含星宿配置与变异速查。
+妄想山海安卓工具箱，当前版本 **1.3.5**，包含离线星宿配置、变异速查和悬浮时钟。
 
 输入星宿点，选择武器天赋、四元素目标与优先规则，生成满足前置条件的加点方案。支持多套方案、武器与方位定位、属性行号指导和手动悬浮进度。
 
@@ -11,9 +11,15 @@
 
 变异速查支持按巨兽、部位、特质、年份组合筛选，查看攻击／穿透档位、具体数值及来源；另可检索斗兽特质、蜃兽特性与全部词条。不包含宠物搭配推荐。
 
+四元素分为8个具体星宿，按游戏属性行设置0～6级，前置自动补齐，四种规则均可使用。支持天赋点数、升级玉／纹与单项每点战力明细，另有收藏、最近查询、方案对比、备份、攻略卡和离线方案码。
+
+悬浮时钟提供三种数字预设，可自定义文字、背景与描边颜色，拖动移动、双指自由缩放、长按关闭。反馈与需求投票使用独立服务；日志仅由用户主动提交，用户侧不展示正文，不附带设备信息或星宿方案。
+
 ## 下载
 
-[线路一](https://fastly.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.4/releases/star-planner-1.3.4.apk) · [线路二](https://gcore.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.4/releases/star-planner-1.3.4.apk) · [线路三](https://cdn.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.4/releases/star-planner-1.3.4.apk) · [GitHub Releases](https://github.com/LeeYan421/shanhai-star-planner/releases/latest)
+[统一下载页](https://wutong.leeyan.site/download)
+
+[线路一](https://fastly.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.5/releases/star-planner-1.3.5.apk) · [线路二](https://gcore.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.5/releases/star-planner-1.3.5.apk) · [线路三](https://cdn.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.5/releases/star-planner-1.3.5.apk) · [GitHub Releases](https://github.com/LeeYan421/shanhai-star-planner/releases/latest)
 
 Android 8.0及以上。下载后覆盖安装以保留方案和勾选进度。可覆盖此前版本，保留本机方案。
 
@@ -25,16 +31,17 @@ Android 8.0及以上。下载后覆盖安装以保留方案和勾选进度。可
 
 ## 本版变化
 
-梧桐山海 1.3.4
+梧桐山海 1.3.5
 
-• 升级为工具箱首页，星宿配置与变异速查集中使用。
-• 星宿界面更紧凑；虚战方案固定自选天赋，再自动补齐剩余容量。
-• 新增离线变异速查，按巨兽、部位、特质和年份组合筛选，直接查看攻穿档位、数值与来源。
-• 斗兽特质、蜃兽特性支持来源反查；速查采用紧凑列表与品质配色。
-• 变异速查支持悬浮窗，可拖动、收起并保留查询，少量结果自动缩短窗口。
-• 重绘透明游戏风格图标，品牌升级为“梧桐山海”。
-• 启动静默检查更新，发现新版才提示；保留手动检查和App内下载。
-• 增加QQ群和赞赏入口，分享方案附软件下载地址。
+• 四元素拆为8个具体星宿，按游戏属性顺序设置0～6级，必要前置自动补齐；暴击、虚战、攻穿和自定义目标四种规则均支持，每套方案独立保存。
+• 天赋选择新增解锁点数、升级玉／纹消耗及单项每点战力明细。
+• 新增悬浮时钟：三种数字预设、自定义文字／背景／描边配色，支持拖动、双指自由缩放和长按关闭。
+• 新增收藏、最近查询、星宿方案对比与JSON备份；支持攻略卡、离线方案码和统一下载页。
+• 完善意见反馈、需求收集与投票；增加一键提交异常日志，用户侧不展示日志正文，不附带设备信息或星宿方案。
+• 匿名人数统计仅记录安装与活跃数量，不采集设备、IP、账号或正常操作轨迹。
+• 修复虚战搭配元素目标时的byId报错，以及小窗口双指无法缩小的问题。
+
+可覆盖安装，保留已有方案和加点进度。
 
 ## 使用提示
 
