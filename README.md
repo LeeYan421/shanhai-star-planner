@@ -29,7 +29,7 @@ Windows x64绿色版现已提供，解压全部文件后运行“梧桐山海.ex
 
 Windows 1.3.6：[直连绿色包](https://gcore.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@windows-v1.3.6/releases/star-planner-1.3.6-windows-x64.zip) · [备用线路](https://fastly.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@windows-v1.3.6/releases/star-planner-1.3.6-windows-x64.zip) · [Windows发布记录](https://github.com/LeeYan421/shanhai-star-planner/releases/tag/windows-v1.3.6)
 
-[线路一](https://fastly.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.8/releases/star-planner-1.3.8.apk) · [线路二](https://gcore.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.8/releases/star-planner-1.3.8.apk) · [线路三](https://cdn.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.8/releases/star-planner-1.3.8.apk) · [GitHub Releases](https://github.com/LeeYan421/shanhai-star-planner/releases/latest)
+[线路一](https://fastly.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@371876f0faa4ba4e0eb52e80b607f9b5f11d9ae5/releases/star-planner-1.3.8.apk) · [线路二](https://gcore.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@371876f0faa4ba4e0eb52e80b607f9b5f11d9ae5/releases/star-planner-1.3.8.apk) · [线路三](https://cdn.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@371876f0faa4ba4e0eb52e80b607f9b5f11d9ae5/releases/star-planner-1.3.8.apk) · [GitHub Releases](https://github.com/LeeYan421/shanhai-star-planner/releases/latest)
 
 Android 8.0及以上。下载后覆盖安装以保留方案和勾选进度。可覆盖此前版本，保留本机方案。
 
