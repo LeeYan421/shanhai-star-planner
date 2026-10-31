@@ -1,6 +1,6 @@
 # 梧桐山海
 
-妄想山海安卓工具箱，当前版本 **1.3.6**，包含离线星宿配置、变异速查、蚩尤旗兵魂和悬浮时钟。
+妄想山海工具箱，安卓当前版本 **1.3.6**，包含离线星宿配置、变异速查、蚩尤旗兵魂和悬浮时钟。
 
 输入星宿点，选择武器天赋、四元素目标与优先规则，生成满足前置条件的加点方案。支持多套方案、武器与方位定位、属性行号指导和手动悬浮进度。
 
@@ -19,9 +19,13 @@
 
 悬浮时钟提供三种数字预设，可自定义文字、背景与描边颜色，拖动移动、双指自由缩放、长按关闭。反馈与需求投票使用独立服务；日志仅由用户主动提交，用户侧不展示正文，不附带设备信息或星宿方案。
 
+Windows x64绿色版现已提供，解压全部文件后运行“梧桐山海.exe”。保留离线计算、兵魂及变异速查、置顶指导和透明时钟；方案备份可与安卓互通。需要.NET Framework 4.8和Microsoft Edge WebView2。
+
 ## 下载
 
 [统一下载页](https://wutong.leeyan.site/download)
+
+Windows 1.3.6：[直连绿色包](https://gcore.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@windows-v1.3.6/releases/star-planner-1.3.6-windows-x64.zip) · [备用线路](https://fastly.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@windows-v1.3.6/releases/star-planner-1.3.6-windows-x64.zip) · [Windows发布记录](https://github.com/LeeYan421/shanhai-star-planner/releases/tag/windows-v1.3.6)
 
 [线路一](https://fastly.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.6/releases/star-planner-1.3.6.apk) · [线路二](https://gcore.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.6/releases/star-planner-1.3.6.apk) · [线路三](https://cdn.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.6/releases/star-planner-1.3.6.apk) · [GitHub Releases](https://github.com/LeeYan421/shanhai-star-planner/releases/latest)
 
