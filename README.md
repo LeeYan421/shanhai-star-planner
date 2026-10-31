@@ -1,6 +1,6 @@
 # 梧桐山海
 
-妄想山海工具箱，安卓当前版本 **1.3.7**，包含离线星宿配置、变异速查、蚩尤旗兵魂、巨兽刷新时钟和悬浮时钟。另提供Windows x64绿色版。
+妄想山海工具箱，安卓当前版本 **1.3.8**，包含离线星宿配置、变异速查、蚩尤旗兵魂、资源刷新时钟和悬浮时钟。另提供Windows x64绿色版。
 
 输入星宿点，选择武器天赋、四元素目标与优先规则，生成满足前置条件的加点方案。支持多套方案、武器与方位定位、属性行号指导和手动悬浮进度。
 
@@ -19,7 +19,7 @@
 
 悬浮时钟提供三种数字预设，可自定义文字、背景与描边颜色，拖动移动、双指自由缩放、长按关闭。反馈与需求投票使用独立服务；日志仅由用户主动提交，用户侧不展示正文，不附带设备信息或星宿方案。
 
-巨兽刷新时钟支持按年份和名称选择头像，自选时长、多只独立计时、常用收藏及到时提醒。
+资源刷新时钟收录475条百年以上巨兽图鉴及千趣台、四方试炼、司伐据点、荒狩陨琮4项资源，支持自选时长、多只独立计时、常用收藏及到时提醒。提供半小时、4／6／8／12／16／18／24小时预设，年份筛选下显示刷新参考。
 
 Windows x64绿色版现已提供，解压全部文件后运行“梧桐山海.exe”。保留离线计算、兵魂及变异速查、置顶指导和透明时钟；方案备份可与安卓互通。需要.NET Framework 4.8和Microsoft Edge WebView2。
 
@@ -29,7 +29,7 @@ Windows x64绿色版现已提供，解压全部文件后运行“梧桐山海.ex
 
 Windows 1.3.6：[直连绿色包](https://gcore.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@windows-v1.3.6/releases/star-planner-1.3.6-windows-x64.zip) · [备用线路](https://fastly.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@windows-v1.3.6/releases/star-planner-1.3.6-windows-x64.zip) · [Windows发布记录](https://github.com/LeeYan421/shanhai-star-planner/releases/tag/windows-v1.3.6)
 
-[线路一](https://fastly.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.7/releases/star-planner-1.3.7.apk) · [线路二](https://gcore.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.7/releases/star-planner-1.3.7.apk) · [线路三](https://cdn.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.7/releases/star-planner-1.3.7.apk) · [GitHub Releases](https://github.com/LeeYan421/shanhai-star-planner/releases/latest)
+[线路一](https://fastly.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@371876f0faa4ba4e0eb52e80b607f9b5f11d9ae5/releases/star-planner-1.3.8.apk) · [线路二](https://gcore.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@371876f0faa4ba4e0eb52e80b607f9b5f11d9ae5/releases/star-planner-1.3.8.apk) · [线路三](https://cdn.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@371876f0faa4ba4e0eb52e80b607f9b5f11d9ae5/releases/star-planner-1.3.8.apk) · [GitHub Releases](https://github.com/LeeYan421/shanhai-star-planner/releases/latest)
 
 Android 8.0及以上。下载后覆盖安装以保留方案和勾选进度。可覆盖此前版本，保留本机方案。
 
@@ -41,19 +41,12 @@ Android 8.0及以上。下载后覆盖安装以保留方案和勾选进度。可
 
 ## 本版变化
 
-新增
-• 巨兽刷新时钟：选择头像和时长开始计时，支持年份筛选、名称搜索、常用收藏、多只独立计时，以及到时弹窗和振动提醒。
-
-优化
-• 全部页面采用 MDUI 2 组件，首页工具卡片改为居中正方形布局。
-• 悬浮时钟开关移至上方，配置支持折叠，大小改为滑块调节并显示百分比。
-• 悬浮指导布局更紧凑，悬浮球支持贴边隐藏。
-
-修复
-• 修复手机下拉选项显示不全、页面误触双指缩放和攻略卡显示异常。
-• 修复悬浮窗拖动不跟手、白色底边和变异悬浮速查异常放大。
-• 修复巨兽目录遗漏与年份不准确，补齐千年以上巨兽狩猎图鉴。
-• 修复调整时钟其他设置时，小数缩放比例被改变的问题。
+• 巨兽刷新时钟升级为资源刷新时钟，新增千趣台、四方试炼、司伐据点和荒狩陨琮计时，支持常用别名搜索。
+• 新增百年巨兽计时，收录百年、三百年、五百年、八百年共120条记录，巨兽目录增至475条。
+• 常用时长调整为半小时、4小时、6小时、8小时、12小时、16小时、18小时、24小时。
+• 年份筛选下新增刷新参考：百年30分钟，千年6～8小时，万年至八万年16～22小时。
+• 下载页同步新版资源计时界面和更新内容。
+• 四项资源使用游戏原生地图图标。
 
 ## 使用提示
 
