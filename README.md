@@ -1,6 +1,6 @@
 # 梧桐山海
 
-妄想山海工具箱，安卓当前版本 **1.3.6**，包含离线星宿配置、变异速查、蚩尤旗兵魂和悬浮时钟。
+妄想山海工具箱，安卓当前版本 **1.3.7**，包含离线星宿配置、变异速查、蚩尤旗兵魂、巨兽刷新时钟和悬浮时钟。另提供Windows x64绿色版。
 
 输入星宿点，选择武器天赋、四元素目标与优先规则，生成满足前置条件的加点方案。支持多套方案、武器与方位定位、属性行号指导和手动悬浮进度。
 
@@ -19,6 +19,8 @@
 
 悬浮时钟提供三种数字预设，可自定义文字、背景与描边颜色，拖动移动、双指自由缩放、长按关闭。反馈与需求投票使用独立服务；日志仅由用户主动提交，用户侧不展示正文，不附带设备信息或星宿方案。
 
+巨兽刷新时钟支持按年份和名称选择头像，自选时长、多只独立计时、常用收藏及到时提醒。
+
 Windows x64绿色版现已提供，解压全部文件后运行“梧桐山海.exe”。保留离线计算、兵魂及变异速查、置顶指导和透明时钟；方案备份可与安卓互通。需要.NET Framework 4.8和Microsoft Edge WebView2。
 
 ## 下载
@@ -27,7 +29,7 @@ Windows x64绿色版现已提供，解压全部文件后运行“梧桐山海.ex
 
 Windows 1.3.6：[直连绿色包](https://gcore.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@windows-v1.3.6/releases/star-planner-1.3.6-windows-x64.zip) · [备用线路](https://fastly.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@windows-v1.3.6/releases/star-planner-1.3.6-windows-x64.zip) · [Windows发布记录](https://github.com/LeeYan421/shanhai-star-planner/releases/tag/windows-v1.3.6)
 
-[线路一](https://fastly.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.6/releases/star-planner-1.3.6.apk) · [线路二](https://gcore.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.6/releases/star-planner-1.3.6.apk) · [线路三](https://cdn.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.6/releases/star-planner-1.3.6.apk) · [GitHub Releases](https://github.com/LeeYan421/shanhai-star-planner/releases/latest)
+[线路一](https://fastly.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.7/releases/star-planner-1.3.7.apk) · [线路二](https://gcore.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.7/releases/star-planner-1.3.7.apk) · [线路三](https://cdn.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.7/releases/star-planner-1.3.7.apk) · [GitHub Releases](https://github.com/LeeYan421/shanhai-star-planner/releases/latest)
 
 Android 8.0及以上。下载后覆盖安装以保留方案和勾选进度。可覆盖此前版本，保留本机方案。
 
@@ -39,16 +41,19 @@ Android 8.0及以上。下载后覆盖安装以保留方案和勾选进度。可
 
 ## 本版变化
 
-梧桐山海 1.3.6
+新增
+• 巨兽刷新时钟：选择头像和时长开始计时，支持年份筛选、名称搜索、常用收藏、多只独立计时，以及到时弹窗和振动提醒。
 
-• 新增蚩尤旗兵魂速查：40种兵魂、918个宠物名称，支持兵魂反查核心宠物、宠物查兵魂，以及名称和效果搜索。
-• 宠物按名称去重，不记录年份；同名记录的兵魂关联合并保留。
-• 加点指导调整为一个星宿一步，按游戏属性行展示目标等级，保留前置顺序、逐行勾选和已有进度。
-• 悬浮指导新增紧凑总览，按屏幕高度自动分栏展示完整星宿；逐级收益和战力参考在明细中查看。
-• 首页、攻略卡和文字导出同步采用星宿步骤数。
-• 修正兵魂列表翻页位置，新页从列表顶部开始。
+优化
+• 全部页面采用 MDUI 2 组件，首页工具卡片改为居中正方形布局。
+• 悬浮时钟开关移至上方，配置支持折叠，大小改为滑块调节并显示百分比。
+• 悬浮指导布局更紧凑，悬浮球支持贴边隐藏。
 
-可覆盖安装，保留已有方案和加点进度。
+修复
+• 修复手机下拉选项显示不全、页面误触双指缩放和攻略卡显示异常。
+• 修复悬浮窗拖动不跟手、白色底边和变异悬浮速查异常放大。
+• 修复巨兽目录遗漏与年份不准确，补齐千年以上巨兽狩猎图鉴。
+• 修复调整时钟其他设置时，小数缩放比例被改变的问题。
 
 ## 使用提示
 
