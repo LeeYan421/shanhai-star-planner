@@ -1,6 +1,6 @@
 # 梧桐山海
 
-妄想山海工具箱，安卓当前版本 **1.3.8**，包含离线星宿配置、变异速查、蚩尤旗兵魂、资源刷新时钟和悬浮时钟。另提供Windows x64绿色版。
+妄想山海工具箱，安卓当前版本 **1.3.9**，包含离线星宿配置、变异速查、蚩尤旗兵魂、资源刷新时钟和悬浮时钟。另提供Windows x64绿色版。
 
 输入星宿点，选择武器天赋、四元素目标与优先规则，生成满足前置条件的加点方案。支持多套方案、武器与方位定位、属性行号指导和手动悬浮进度。
 
@@ -8,6 +8,7 @@
 - 自定义目标：暴击达到指定增量后让攻击最高，同收益少耗点。
 - 攻击穿透优先：攻击 → 穿透 → 暴击。
 - 虚战优先：固定自选天赋，再补充满级Lv6天赋，最大化节点与携带天赋总参考战力，包含元素。
+- PVP均衡：生命优先后按所选属性权重分配，勾选后填写，默认1；支持韧暴流、攻防流、暴防流及自选属性。
 
 变异速查支持按巨兽、部位、特质、年份组合筛选，查看攻击／穿透档位、具体数值及来源；另可检索斗兽特质、蜃兽特性与全部词条。不包含宠物搭配推荐。
 
@@ -19,17 +20,15 @@
 
 悬浮时钟提供三种数字预设，可自定义文字、背景与描边颜色，拖动移动、双指自由缩放、长按关闭。反馈与需求投票使用独立服务；日志仅由用户主动提交，用户侧不展示正文，不附带设备信息或星宿方案。
 
-资源刷新时钟收录475条百年以上巨兽图鉴及千趣台、四方试炼、司伐据点、荒狩陨琮4项资源，支持自选时长、多只独立计时、常用收藏及到时提醒。提供半小时、4／6／8／12／16／18／24小时预设，年份筛选下显示刷新参考。
-
-Windows x64绿色版现已提供，解压全部文件后运行“梧桐山海.exe”。保留离线计算、兵魂及变异速查、置顶指导和透明时钟；方案备份可与安卓互通。需要.NET Framework 4.8和Microsoft Edge WebView2。
+资源刷新时钟收录499条五十年以上及超级神兽图鉴，另有千趣台、四方试炼、司伐据点、荒狩陨琮4项资源。支持自定义资源、单次和区间提醒、多只独立计时及常用收藏，全部435枚资源与巨兽图标为原创插画。提供半小时、4／6／8／12／16／18／24小时预设，年份筛选下显示刷新参考。
 
 ## 下载
 
 [统一下载页](https://wutong.leeyan.site/download)
 
-Windows 1.3.6：[直连绿色包](https://gcore.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@windows-v1.3.6/releases/star-planner-1.3.6-windows-x64.zip) · [备用线路](https://fastly.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@windows-v1.3.6/releases/star-planner-1.3.6-windows-x64.zip) · [Windows发布记录](https://github.com/LeeYan421/shanhai-star-planner/releases/tag/windows-v1.3.6)
+[Windows绿色版](https://wutong.leeyan.site/download#windows-download)，解压全部文件后运行“梧桐山海.exe”。
 
-[线路一](https://fastly.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@371876f0faa4ba4e0eb52e80b607f9b5f11d9ae5/releases/star-planner-1.3.8.apk) · [线路二](https://gcore.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@371876f0faa4ba4e0eb52e80b607f9b5f11d9ae5/releases/star-planner-1.3.8.apk) · [线路三](https://cdn.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@371876f0faa4ba4e0eb52e80b607f9b5f11d9ae5/releases/star-planner-1.3.8.apk) · [GitHub Releases](https://github.com/LeeYan421/shanhai-star-planner/releases/latest)
+[线路一](https://fastly.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.9/releases/star-planner-1.3.9.apk) · [线路二](https://gcore.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.9/releases/star-planner-1.3.9.apk) · [线路三](https://cdn.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.9/releases/star-planner-1.3.9.apk) · [GitHub Releases](https://github.com/LeeYan421/shanhai-star-planner/releases/latest)
 
 Android 8.0及以上。下载后覆盖安装以保留方案和勾选进度。可覆盖此前版本，保留本机方案。
 
@@ -41,12 +40,16 @@ Android 8.0及以上。下载后覆盖安装以保留方案和勾选进度。可
 
 ## 本版变化
 
-• 巨兽刷新时钟升级为资源刷新时钟，新增千趣台、四方试炼、司伐据点和荒狩陨琮计时，支持常用别名搜索。
-• 新增百年巨兽计时，收录百年、三百年、五百年、八百年共120条记录，巨兽目录增至475条。
-• 常用时长调整为半小时、4小时、6小时、8小时、12小时、16小时、18小时、24小时。
-• 年份筛选下新增刷新参考：百年30分钟，千年6～8小时，万年至八万年16～22小时。
-• 下载页同步新版资源计时界面和更新内容。
-• 四项资源使用游戏原生地图图标。
+梧桐山海 1.3.9
+
+• 新增 PVP 均衡规则：生命优先后按属性权重分配，勾选后填写，默认 1；支持韧暴流、攻防流、暴防流和自选属性。
+• 清理变异速查中的占位符和重复展示，保留完整来源反查。
+• 资源刷新时钟收录 499 条巨兽记录，支持四项资源、自定义资源、单次和区间提醒；435 枚图标全部采用原创插画。
+• Windows 版包含星宿配置、变异速查、蚩尤旗兵魂、资源刷新时钟、悬浮时钟五项完整工具，重开软件后自动恢复已有资源计时。
+• 权重随方案、备份和分享保留，优化更新检查与下载入口。
+
+安卓可覆盖安装以保留方案与计时。Windows 请关闭旧版后完整解压覆盖程序文件，保持软件运行以接收到点提醒。
+带权重的方案与备份需使用新版读取，建议两端同步更新。
 
 ## 使用提示
 
