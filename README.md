@@ -1,6 +1,6 @@
 # 梧桐山海
 
-妄想山海工具箱，安卓当前版本 **1.3.10**，包含离线星宿配置、账号天赋、词条搭配、变异速查、蚩尤旗兵魂、资源刷新时钟和悬浮时钟。另提供Windows x64绿色版。
+妄想山海工具箱，安卓当前版本 **1.3.11**，包含离线星宿配置、账号天赋、词条搭配、变异速查、神兵兵魂、资源刷新时钟和悬浮时钟。另提供Windows x64绿色版。
 
 输入星宿点，选择武器天赋、四元素目标与优先规则，生成满足前置条件的加点方案。支持多套方案、武器与方位定位、属性行号指导和手动悬浮进度。
 
@@ -16,7 +16,7 @@
 
 变异速查支持按巨兽、部位、特质、年份组合筛选，查看攻击／穿透档位、具体数值及来源；另可检索斗兽特质、蜃兽特性与全部词条。不包含宠物搭配推荐。
 
-蚩尤旗兵魂速查收录40种兵魂、918个去重宠物名称，支持兵魂反查核心宠物、宠物查兵魂及名称和效果搜索。不记录宠物年份，同名记录的兵魂关联合并保留，具体个体以游戏魂力页核对。
+神兵兵魂覆盖轩辕剑、蚩尤旗、神农鼎、祝融火，支持图鉴、品质数值、触发条件及实战／虚战搭配参考。可按神兵等级与最高兵魂品质选择，保留40种凝炼兵魂与918种核心宠物的双向查询，实际获取与效果以游戏为准。
 
 加点指导按星宿合并步骤，保留公共前置顺序和已有勾选进度。悬浮总览自动分栏显示各属性目标等级及“不点”的行，逐级收益和战力参考在明细中查看。
 
@@ -32,7 +32,7 @@
 
 [Windows绿色版](https://wutong.leeyan.site/download#windows-download)，解压全部文件后运行“梧桐山海.exe”。
 
-[线路一](https://fastly.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.10/releases/star-planner-1.3.10.apk) · [线路二](https://gcore.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.10/releases/star-planner-1.3.10.apk) · [线路三](https://cdn.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.10/releases/star-planner-1.3.10.apk) · [GitHub Releases](https://github.com/LeeYan421/shanhai-star-planner/releases/latest)
+[线路一](https://fastly.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.11/releases/star-planner-1.3.11.apk) · [线路二](https://gcore.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.11/releases/star-planner-1.3.11.apk) · [线路三](https://cdn.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.11/releases/star-planner-1.3.11.apk) · [GitHub Releases](https://github.com/LeeYan421/shanhai-star-planner/releases/latest)
 
 Android 8.0及以上。下载后覆盖安装以保留方案和勾选进度。可覆盖此前版本，保留本机方案。
 
@@ -44,16 +44,13 @@ Android 8.0及以上。下载后覆盖安装以保留方案和勾选进度。可
 
 ## 本版变化
 
-梧桐山海 1.3.10
+梧桐山海更新说明（安卓／Windows）
 
-• 新增账号天赋星盘：录入游戏中的实际等级，默认1级，按当前等级计算星宿方案。
-• 新增词条搭配：人物与侍从的武器、防具及首饰，支持实战／虚战推荐、品质上限和来源反查。
-• 词条支持同类装备向下兼容，低品质来源的高数值可纳入高品质装备推荐；同效果合并，保留条件与来源。
-• 词条资料保留2393条普通装备配置，移除六类混沌防具、魔蕾附魔及相关未投放词条。
-• 安卓仅账号天赋默认横屏全屏，星宿配置保持常规方向；加点指导和变异速查悬浮球可拖至状态栏区域。
-• 优化旧版WebView的界面与求解兼容处理。
+- 新增四神兵图鉴：轩辕剑、蚩尤旗、神农鼎、祝融火，支持按类型、品质、名称和效果查询，查看最高数值与触发条件。
+- 新增神兵实战／虚战搭配参考，可按神兵等级和最高兵魂品质选择；保留兵魂与核心宠物双向查询。
+- 资源计时支持补记过去24小时内的击杀／采集时间，可添加备注和最多3张图片，图片仅保存在本机。
 
-两端均包含全部七项工具。安卓覆盖安装；Windows退出软件后解压覆盖，已有本机资料保留。
+安卓覆盖安装；Windows退出软件后解压覆盖，已有本机资料保留。
 
 ## 使用提示
 
