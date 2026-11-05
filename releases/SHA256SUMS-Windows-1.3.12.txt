@@ -1,0 +1,2 @@
+5c980a10197a8686c31f714220abffb3b36d8860ef7560d374f234ff64f9bf1f  star-planner-1.3.12-windows-x64.zip
+49f6fdc3e1bcf1baaa0a0a4f68647f5d2a0d707d9a406e91a467903aa6993db8  star-planner-1.3.12-windows-x64-setup.exe

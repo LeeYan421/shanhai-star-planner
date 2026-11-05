@@ -1,6 +1,6 @@
 # 梧桐山海
 
-妄想山海工具箱，安卓当前版本 **1.3.11**，包含离线星宿配置、账号天赋、词条搭配、变异速查、神兵兵魂、资源刷新时钟和悬浮时钟。另提供Windows x64绿色版。
+妄想山海工具箱，安卓当前版本 **1.3.12**，包含离线星宿配置、账号天赋、词条搭配、变异速查、神兵兵魂、资源刷新时钟和悬浮时钟。另提供Windows x64安装包及绿色ZIP。
 
 输入星宿点，选择武器天赋、四元素目标与优先规则，生成满足前置条件的加点方案。支持多套方案、武器与方位定位、属性行号指导和手动悬浮进度。
 
@@ -16,7 +16,7 @@
 
 变异速查支持按巨兽、部位、特质、年份组合筛选，查看攻击／穿透档位、具体数值及来源；另可检索斗兽特质、蜃兽特性与全部词条。不包含宠物搭配推荐。
 
-神兵兵魂覆盖轩辕剑、蚩尤旗、神农鼎、祝融火，支持图鉴、品质数值、触发条件及实战／虚战搭配参考。可按神兵等级与最高兵魂品质选择，保留40种凝炼兵魂与918种核心宠物的双向查询，实际获取与效果以游戏为准。
+神兵兵魂覆盖轩辕剑、蚩尤旗、神农鼎、祝融火，支持图鉴、品质数值、触发条件及实战／虚战搭配参考。可按神兵等级与最高兵魂品质选择，保留40种凝炼兵魂与山海经图鉴宠物的双向查询，实际获取与效果以游戏为准。
 
 加点指导按星宿合并步骤，保留公共前置顺序和已有勾选进度。悬浮总览自动分栏显示各属性目标等级及“不点”的行，逐级收益和战力参考在明细中查看。
 
@@ -30,9 +30,9 @@
 
 [统一下载页](https://wutong.leeyan.site/download)
 
-[Windows绿色版](https://wutong.leeyan.site/download#windows-download)，解压全部文件后运行“梧桐山海.exe”。
+[Windows安装包](https://wutong.leeyan.site/download/windows.exe) · [绿色ZIP备用](https://wutong.leeyan.site/download/windows.zip)。安装版与旧绿色版沿用同一本机资料目录。
 
-[线路一](https://fastly.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.11/releases/star-planner-1.3.11.apk) · [线路二](https://gcore.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.11/releases/star-planner-1.3.11.apk) · [线路三](https://cdn.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.11/releases/star-planner-1.3.11.apk) · [GitHub Releases](https://github.com/LeeYan421/shanhai-star-planner/releases/latest)
+[线路一](https://fastly.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.12/releases/star-planner-1.3.12.apk) · [线路二](https://gcore.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.12/releases/star-planner-1.3.12.apk) · [线路三](https://cdn.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.12/releases/star-planner-1.3.12.apk) · [GitHub Releases](https://github.com/LeeYan421/shanhai-star-planner/releases/latest)
 
 Android 8.0及以上。下载后覆盖安装以保留方案和勾选进度。可覆盖此前版本，保留本机方案。
 
@@ -44,13 +44,14 @@ Android 8.0及以上。下载后覆盖安装以保留方案和勾选进度。可
 
 ## 本版变化
 
-梧桐山海更新说明（安卓／Windows）
+梧桐山海 1.3.12 更新说明（安卓／Windows）
 
-- 新增四神兵图鉴：轩辕剑、蚩尤旗、神农鼎、祝融火，支持按类型、品质、名称和效果查询，查看最高数值与触发条件。
-- 新增神兵实战／虚战搭配参考，可按神兵等级和最高兵魂品质选择；保留兵魂与核心宠物双向查询。
-- 资源计时支持补记过去24小时内的击杀／采集时间，可添加备注和最多3张图片，图片仅保存在本机。
+- 新增玄纹图鉴，支持品质、部位、属性、套装和群侠来源查询，提供近战、远程、PVP及宠物协同套装参考。
+- 新增人物理论伤害计算，支持器魂与目标选择、四元素面板保存、多套面板收益对比；未校准项目保留提示。
+- 星宿配置新增天衍天赋，按账号实际等级参与求解，不占星盘容量；天赋选择支持按每点战力排序。
+- 补齐蜃兽奇兵的武器词条搭配，支持单独筛选八类奇兵，查看可携带词条与来源。
 
-安卓覆盖安装；Windows退出软件后解压覆盖，已有本机资料保留。
+安卓可覆盖安装；Windows提供EXE安装包，并保留绿色ZIP。已有本机方案和设置保留。
 
 ## 使用提示
 
