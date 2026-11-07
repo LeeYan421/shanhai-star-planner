@@ -1,6 +1,6 @@
 # 梧桐山海
 
-妄想山海工具箱，安卓当前版本 **1.3.12**，包含离线星宿配置、账号天赋、词条搭配、变异速查、神兵兵魂、资源刷新时钟和悬浮时钟。另提供Windows x64安装包及绿色ZIP。
+妄想山海工具箱，安卓当前版本 **1.3.13**，包含离线星宿配置、账号天赋、词条搭配、变异速查、神兵兵魂、资源刷新时钟和悬浮时钟。另提供Windows x64安装包及绿色ZIP。
 
 输入星宿点，选择武器天赋、四元素目标与优先规则，生成满足前置条件的加点方案。支持多套方案、武器与方位定位、属性行号指导和手动悬浮进度。
 
@@ -32,7 +32,7 @@
 
 [Windows安装包](https://wutong.leeyan.site/download/windows.exe) · [绿色ZIP备用](https://wutong.leeyan.site/download/windows.zip)。安装版与旧绿色版沿用同一本机资料目录。
 
-[线路一](https://fastly.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.12/releases/star-planner-1.3.12.apk) · [线路二](https://gcore.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.12/releases/star-planner-1.3.12.apk) · [线路三](https://cdn.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.12/releases/star-planner-1.3.12.apk) · [GitHub Releases](https://github.com/LeeYan421/shanhai-star-planner/releases/latest)
+[线路一](https://fastly.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.13/releases/star-planner-1.3.13.apk) · [线路二](https://gcore.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.13/releases/star-planner-1.3.13.apk) · [线路三](https://cdn.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.13/releases/star-planner-1.3.13.apk) · [GitHub Releases](https://github.com/LeeYan421/shanhai-star-planner/releases/latest)
 
 Android 8.0及以上。下载后覆盖安装以保留方案和勾选进度。可覆盖此前版本，保留本机方案。
 
@@ -44,14 +44,12 @@ Android 8.0及以上。下载后覆盖安装以保留方案和勾选进度。可
 
 ## 本版变化
 
-梧桐山海 1.3.12 更新说明（安卓／Windows）
+梧桐山海 1.3.13
 
-- 新增玄纹图鉴，支持品质、部位、属性、套装和群侠来源查询，提供近战、远程、PVP及宠物协同套装参考。
-- 新增人物理论伤害计算，支持器魂与目标选择、四元素面板保存、多套面板收益对比；未校准项目保留提示。
-- 星宿配置新增天衍天赋，按账号实际等级参与求解，不占星盘容量；天赋选择支持按每点战力排序。
-- 补齐蜃兽奇兵的武器词条搭配，支持单独筛选八类奇兵，查看可携带词条与来源。
-
-安卓可覆盖安装；Windows提供EXE安装包，并保留绿色ZIP。已有本机方案和设置保留。
+- 悬浮时钟支持显示 1～3 位毫秒，并兼容原有设置。
+- 悬浮时钟配色增加应用内取色盘和 HEX 输入，支持调整文字、背景与描边颜色。
+- 修复首次打开指导、时钟及恢复历史配置时的异常提示。
+- 改进资源计时权限未授权时的提示与诊断记录。
 
 ## 使用提示
 
