@@ -1,6 +1,6 @@
 # 梧桐山海
 
-妄想山海工具箱，安卓当前版本 **1.3.14**，包含离线星宿配置、账号天赋、词条搭配、变异速查、神兵兵魂、资源刷新时钟和悬浮时钟。另提供Windows x64安装包及绿色ZIP。
+妄想山海工具箱，安卓当前版本 **1.3.15**，包含离线星宿配置、账号天赋、词条搭配、变异速查、玄纹、神兵兵魂、伤害计算、资源刷新时钟和悬浮时钟。另提供Windows x64安装包及绿色ZIP。
 
 输入星宿点，选择武器天赋、四元素目标与优先规则，生成满足前置条件的加点方案。支持多套方案、武器与方位定位、属性行号指导和手动悬浮进度。
 
@@ -24,17 +24,19 @@
 
 悬浮时钟提供三种数字预设，可自定义文字、背景与描边颜色，拖动移动、双指自由缩放、长按关闭。反馈与需求投票使用独立服务；日志仅由用户主动提交，用户侧不展示正文，不附带设备信息或星宿方案。
 
+安卓与Windows统一使用一个悬浮球选择工具。各工具提供独立紧凑小窗，保留原查询、计算和本机资料；资源时钟小窗可直接选择常用、预设时长、区间及补记起点。星宿规划支持填写星空纹余量，结合账号已有等级计算红色天赋升级参考及材料消耗。
+
 资源刷新时钟收录499条五十年以上及超级神兽图鉴，另有千趣台、四方试炼、司伐据点、荒狩陨琮4项资源。支持自定义资源、单次和区间提醒、多只独立计时及常用收藏，全部435枚资源与巨兽图标为原创插画。提供半小时、4／6／8／12／16／18／24小时预设，年份筛选下显示刷新参考。
 
 ## 下载
 
 [统一下载页](https://wutong.leeyan.site/download)
 
-[iOS 侧载包](https://wutong.leeyan.site/download/ios.ipa)：iOS 16.1 及以上，未签名 IPA，需自行签名安装。
-
 [Windows安装包](https://wutong.leeyan.site/download/windows.exe) · [绿色ZIP备用](https://wutong.leeyan.site/download/windows.zip)。安装版与旧绿色版沿用同一本机资料目录。
 
-[线路一](https://fastly.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.14/releases/star-planner-1.3.14.apk) · [线路二](https://gcore.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.14/releases/star-planner-1.3.14.apk) · [线路三](https://cdn.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.14/releases/star-planner-1.3.14.apk) · [GitHub Releases](https://github.com/LeeYan421/shanhai-star-planner/releases/latest)
+[iOS侧载包](https://wutong.leeyan.site/download/ios.ipa)：iOS 16.1及以上，需自行签名安装；沿用已发布的iOS版本。
+
+[线路一](https://fastly.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.15/releases/star-planner-1.3.15.apk) · [线路二](https://gcore.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.15/releases/star-planner-1.3.15.apk) · [线路三](https://cdn.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.15/releases/star-planner-1.3.15.apk) · [GitHub Releases](https://github.com/LeeYan421/shanhai-star-planner/releases/latest)
 
 Android 8.0及以上。下载后覆盖安装以保留方案和勾选进度。可覆盖此前版本，保留本机方案。
 
@@ -46,13 +48,13 @@ Android 8.0及以上。下载后覆盖安装以保留方案和勾选进度。可
 
 ## 本版变化
 
-梧桐山海 1.3.14
+梧桐山海 1.3.15
 
-- 统一首页工具与底部导航图标，优化主要页面和弹窗的信息密度。
-- 资源计时支持记住各资源的自定义时长，优先使用个人记录，无记录时采用参考时间下限；修复添加图片后不显示缩略图。
-- 安卓、Windows 新增独立资源计时小窗，支持备注、显示数量和提前显示时间设置，按剩余时间排序。
-- 安卓、Windows 变异与玄纹速查合并为紧凑悬浮窗，精简筛选与结果，突出变异数值、档位及玄纹的群侠来源，修复下拉选项裁切。
-- iOS 同步界面与计时优化，修复本地页面启动异常。
+- 统一悬浮球入口，各工具提供独立紧凑小窗，保留星宿指导、变异／玄纹速查和原生悬浮时钟的操作体验。
+- 资源时钟小窗支持常用、8项预设、个人时长记忆、单次／区间、补记起点、重计时、另记一只、自定义资源及备注图片。
+- 星宿规划新增星空纹余量输入，结合账号已有等级提供红色天赋升级参考与材料消耗明细；指导完成页补齐携带天赋和天衍说明。
+- Android资源计时可开启持续响铃与震动，到点后手动确认停止，减少漏提醒。
+- 完善小窗内的词条、玄纹、伤害面板、收藏及反馈操作。
 
 ## 使用提示
 
