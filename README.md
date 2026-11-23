@@ -1,6 +1,6 @@
 # 梧桐山海
 
-妄想山海工具箱，安卓当前版本 **1.3.16**，包含离线星宿配置、账号天赋、词条搭配、变异速查、玄纹、神兵兵魂、伤害计算、资源刷新时钟和悬浮时钟。另提供Windows x64安装包及绿色ZIP。
+妄想山海工具箱，安卓当前版本 **1.3.17**，包含离线星宿配置、账号天赋、词条搭配、变异速查、玄纹、神兵兵魂、伤害计算、资源刷新时钟和悬浮时钟。另提供Windows x64安装包及绿色ZIP。
 
 「山海配方」支持按材料反查武器、装备、宠物食珍和进化丹，展开查看用量和适用宠物。可从首页第二页或悬浮球打开。
 
@@ -38,7 +38,7 @@
 
 [iOS侧载包](https://wutong.leeyan.site/download/ios.ipa)：iOS 16.1及以上，需自行签名安装；沿用已发布的iOS版本。
 
-[线路一](https://fastly.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.16/releases/star-planner-1.3.16.apk) · [线路二](https://gcore.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.16/releases/star-planner-1.3.16.apk) · [线路三](https://cdn.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.16/releases/star-planner-1.3.16.apk) · [GitHub Releases](https://github.com/LeeYan421/shanhai-star-planner/releases/latest)
+[线路一](https://fastly.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.17/releases/star-planner-1.3.17.apk) · [线路二](https://gcore.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.17/releases/star-planner-1.3.17.apk) · [线路三](https://cdn.jsdelivr.net/gh/LeeYan421/shanhai-star-planner@v1.3.17/releases/star-planner-1.3.17.apk) · [GitHub Releases](https://github.com/LeeYan421/shanhai-star-planner/releases/latest)
 
 Android 8.0及以上。下载后覆盖安装以保留方案和勾选进度。可覆盖此前版本，保留本机方案。
 
@@ -50,9 +50,7 @@ Android 8.0及以上。下载后覆盖安装以保留方案和勾选进度。可
 
 ## 本版变化
 
-梧桐山海 1.3.16
-
-- 新增「山海配方」。输入材料名称，反查可制作的武器、装备、宠物食珍和进化丹。展开可看完整用量，食珍会列出适用宠物。首页与悬浮球均可打开。
+新增菜谱查询。
 
 ## 使用提示
 

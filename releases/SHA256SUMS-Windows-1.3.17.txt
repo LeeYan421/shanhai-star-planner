@@ -1,0 +1,2 @@
+3cd93c8c7d40f08ae421870866bffa3767099bc67ecf1208a3882314adae41d5  star-planner-1.3.17-windows-x64.zip
+97f802990f50533bd28cd871c343273df1d823ca0c5db30eb4b12e738abb8f0a  star-planner-1.3.17-windows-x64-setup.exe
